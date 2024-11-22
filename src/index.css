@@ -1,0 +1,30 @@
+.oscAppBtn>i {
+  font-size: 20px;
+}
+
+.oscAppBtn>div>i {
+  font-size: 20px;
+}
+
+.standard-button {
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 40px;
+  height: 36px;
+}
+
+.standard-button:hover {
+  background-color: #2980b9;
+}
+
+.Toastify {
+  top: 50%;
+  left: 50%;
+}
+
+div[title="S124 Navigational Warnings"]>button {
+  padding: 5px !important;
+}

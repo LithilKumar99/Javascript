@@ -1,0 +1,9 @@
+.featureinfoTable>tbody>tr>td {
+    word-break: break-all;
+    width: 55%;
+}
+
+.featureinfoTable>tbody>tr>th {
+    word-break: break-all;
+    width: 45%;
+}

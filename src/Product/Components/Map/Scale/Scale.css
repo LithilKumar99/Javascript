@@ -1,0 +1,8 @@
+.ol-scale-bar {
+    position: absolute !important;
+    pointer-events: auto !important;
+}
+
+.scale-view {
+    position: absolute !important;
+}

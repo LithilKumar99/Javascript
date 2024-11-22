@@ -1,0 +1,12 @@
+.mouse-position {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-shadow: 0px 2px 2px #d6d6d6;
+    z-index: 99;
+    background-color: #fff;
+    padding: 0 4px;
+}

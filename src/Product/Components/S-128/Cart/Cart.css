@@ -1,0 +1,15 @@
+.cartcount {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    min-width: 20px;
+    width: auto;
+    height: 20px;
+    line-height: 1.15rem;
+    font-size: 13px;
+    z-index: 99;
+}
+
+.cartListAccord>.accordion-item>.accordion-header>.accordion-button {
+    padding: 6px 10px;
+}

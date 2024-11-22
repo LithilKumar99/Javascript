@@ -1,0 +1,38 @@
+.featureTable_attr>thead>tr>th {
+    word-break: break-all;
+    width: 3%;
+}
+
+.featureTable_attr>tbody>tr>td {
+    word-break: break-all;
+    width: 3%;
+}
+
+.fixed_header {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.fixed_header tbody {
+    display: block;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: auto;
+    height: auto;
+    min-height: 40px;
+    max-height: 146px;
+}
+
+.fixed_header thead tr,
+.fixed_header tbody tr {
+    display: block;
+}
+
+.fixed_header thead>tr>th,
+.fixed_header tbody>tr>td {
+    padding: 6px;
+    text-align: center;
+    font-size: 14px;
+    vertical-align: middle;
+}

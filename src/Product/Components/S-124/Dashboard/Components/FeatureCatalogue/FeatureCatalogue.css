@@ -1,0 +1,40 @@
+.b_border{
+    border: 1px solid #ddd;
+    background: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+.label_mar {
+  margin-top: 7px;
+    margin-right: 14px;
+}
+
+button.btn.btn-primary.import.btn.btn-primary {
+  
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+} 
+.customerFileBtn {
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+input[type="file"] {
+  background-color: transparent;
+}
+
+.customerFileBtn input[type="file"] {
+  padding: 6px 0 0 7px;
+  &::-webkit-file-upload-button {
+    display: none;
+  }
+  &::file-selector-button {
+    display: none;
+  }
+}
+
+  
+  

@@ -1,0 +1,24 @@
+.fixTableHead {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+}
+ 
+.fixTableHead tbody {
+    display: block;
+    width: 100%;
+    overflow: scroll;
+    height: 120px;
+}
+ 
+.fixTableHead thead tr {
+    display: block;
+    padding-right: 14px;
+}
+.fixTableHead tbody tr {
+    width: 100%;
+    display: block;
+}
+.fixTableHead tbody tr td, .fixTableHead thead tr th{
+    font-size: 14px;
+}

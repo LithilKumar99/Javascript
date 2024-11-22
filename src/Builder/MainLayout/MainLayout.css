@@ -1,0 +1,61 @@
+.bg-gradient-primary {
+    background-color: #4e73df;
+    background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+    background-size: cover;
+}
+.BuilderSidebarAccordion> .accordion-item> .accordion-header> .accordion-button:not(.collapsed){
+    background-color: transparent !important;
+    box-shadow: none!important;
+}
+.BuilderSidebarAccordion> .accordion-item{
+    background-color: transparent !important;
+    border: 0 !important; 
+}
+.BuilderSidebarAccordion> .accordion-item> .accordion-header> .accordion-button{
+    background-color: transparent !important;
+    color: rgba(255,255,255,.8) !important;
+}
+.BuilderSidebarAccordion> .accordion-item> .accordion-header> .accordion-button:focus{
+    box-shadow: none !important;
+}
+.BuilderSidebarAccordion> .accordion-item> .accordion-collapse> .accordion-body{
+    background-color: #fff;
+    margin:8px;
+}
+.BuilderSidebarTabs.nav-tabs .nav-link.active{
+    background-color: transparent !important;
+    border-bottom: 0!important;
+    border-color: #82a0f6!important;
+}
+.BuilderSidebarTabs.nav-tabs{
+    border-bottom: 0 !important;
+}
+.BuilderSidebarTabs.nav-tabs .nav-link{
+    color: rgba(255,255,255,.8) !important;
+}
+.BuilderSidebarTabs.nav-tabs .nav-link:hover{
+    border-color: #82a0f6!important;
+}
+.BuilderSidebarTabs.nav-tabs>.nav-item>button{
+    border-color: #82a0f6!important;
+}
+.BuilderSidebarAccordion .accordion-button:not(.collapsed)::after{
+    content: "\F286";
+    font-family: bootstrap-icons;
+    background-image: none !important;
+}
+.BuilderSidebarAccordion .accordion-button::after{
+    content: "\F282"!important;
+    font-family: bootstrap-icons;
+    background-image: none !important;
+}
+.btn-info{
+    color: #3a3b45!important;
+    background-color:#4e73df;
+    border-color:#4e73df;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #4e73df;
+    border-color: #4e73df;
+}
